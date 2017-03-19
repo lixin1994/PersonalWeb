@@ -1,0 +1,27 @@
+{
+  "name": "PersonalWeb",
+  "authors": [
+    "xinli <xinli@ccs.neu.edu>"
+  ],
+  "description": "My web",
+  "main": "home.html",
+  "keywords": [
+    "web"
+  ],
+  "license": "NEU",
+  "homepage": "home.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "sass-material-colors": "^0.0.5"
+  }
+}

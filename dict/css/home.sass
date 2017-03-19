@@ -1,0 +1,114 @@
+@import '../../bower_components/sass-material-colors/sass/sass-material-colors'
+
+body
+  margin: auto
+  background-color: white
+
+nav ul
+  position: fixed
+  list-style-type: none
+  margin: 0
+  top: 0px
+  width: 100%
+  padding: 0
+  box-shadow: 0px 0px 6px 0px material-color('grey', '400')
+  overflow: hidden
+  background-color: material-color('teal', '400')
+  li
+    float: left
+    a
+      font-family: Verdana, Geneva, sans-serif
+      padding: 1em 1em
+      display: block
+      text-decoration: none
+      height: inherit
+      color: white
+      &:hover
+        background-color: white
+        color: material-color('teal','600')
+      .active
+        background-color: material-color('teal', '400')
+
+@media screen and (max-width: 500px)
+  nav ul li
+    float: none
+
+.side-bar
+  width: 30%
+  margin-top: 3.5em
+  float: right
+
+.side-block
+  padding: 1em
+  margin: 0.5em
+  width: auto
+  box-shadow: 0px 0px 6px 0px material-color('grey', '400')
+
+.block-blue
+  background-color: material-color('blue', '400')
+
+.block-orange
+  background-color: material-color('orange', '400')
+
+.block-red
+  background-color: material-color('red', '400')
+
+.block-green
+  background-color: material-color('green', '400')
+
+.block-grey
+  background-color: material-color('grey', '400')
+
+.block-purple
+  background-color: material-color('purple', '400')
+
+.block-cyan
+  background-color: material-color('cyan', '400')
+.block-teal
+  background-color: material-color('teal', '400')
+
+.side-block
+  .profile-pic
+    width: 100%
+    text-align: center
+  .intro-header
+    margin: 0
+    text-align: center
+    color: white
+
+.profile-pic img
+  margin: 1em
+  width: 40%
+  box-shadow: 0px 0px 3px material-color('blue', '800')
+
+.profile-info
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  text-align: center
+  font-size: 13px
+  color: white
+  p
+    margin: 1px
+
+.line
+  margin: 1em 0em 1em 0em
+  height: 1px
+  width: auto
+  opacity: 0.2
+
+.line-white
+  background-color: white
+
+.line-grey
+  background-color: material-color('grey', '500')
+
+.content
+  margin-top: 3.6em
+  width: 70%
+  float: left
+
+footer
+  float: right
+
+.blog-title
+  margin: 0 0 0 0.3em
+  color: material-color('grey', '700')
