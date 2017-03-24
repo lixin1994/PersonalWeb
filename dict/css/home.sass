@@ -13,7 +13,7 @@ nav ul
   padding: 0
   box-shadow: 0px 0px 6px 0px material-color('grey', '400')
   overflow: hidden
-  background-color: material-color('teal', '400')
+  background-color: material-color('pink', '400')
   li
     float: left
     a
@@ -25,9 +25,9 @@ nav ul
       color: white
       &:hover
         background-color: white
-        color: material-color('teal','600')
+        color: material-color('pink','600')
       .active
-        background-color: material-color('teal', '400')
+        background-color: material-color('pink', '400')
 
 @media screen and (max-width: 500px)
   nav ul li
@@ -38,11 +38,64 @@ nav ul
   margin-top: 3.5em
   float: right
 
-.side-block
-  padding: 1em
+.block
   margin: 0.5em
   width: auto
   box-shadow: 0px 0px 6px 0px material-color('grey', '400')
+  .block-info
+    width: 100%
+    height: auto
+    box-shadow:  0px 0px 1px 0px material-color('grey', '400')
+    .blog-title
+      padding: 1em
+      color: white
+  .profile-pic
+    width: 100%
+    text-align: center
+    img
+      width: 100%
+      box-shadow: 0px 2px 2px -2px material-color('grey', '400')
+  .intro-header
+    margin: 0
+    padding: 1em
+    color: white
+
+  .block-content
+    padding: 1em
+    color: material-color('grey', '800')
+    p
+      margin: 0
+
+  .profile-info
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+    font-size: 13px
+    p
+      margin: 5px 0px 5px 0px
+    h3
+      margin: 0.5em 0 0.5em 0
+
+.line
+  margin: 1em 0em 1em 0em
+  height: 1px
+  width: auto
+  opacity: 0.2
+
+.line-white
+  background-color: white
+
+.line-grey
+  background-color: material-color('grey', '500')
+
+.content
+  margin-top: 3.6em
+  width: 70%
+  float: left
+
+
+.blog-title
+  margin: 0 0 0 0.3em
+  color: material-color('grey', '800')
+
 
 .block-blue
   background-color: material-color('blue', '400')
@@ -66,49 +119,3 @@ nav ul
   background-color: material-color('cyan', '400')
 .block-teal
   background-color: material-color('teal', '400')
-
-.side-block
-  .profile-pic
-    width: 100%
-    text-align: center
-  .intro-header
-    margin: 0
-    text-align: center
-    color: white
-
-.profile-pic img
-  margin: 1em
-  width: 40%
-  box-shadow: 0px 0px 3px material-color('blue', '800')
-
-.profile-info
-  font-family: "Trebuchet MS", Helvetica, sans-serif
-  text-align: center
-  font-size: 13px
-  color: white
-  p
-    margin: 1px
-
-.line
-  margin: 1em 0em 1em 0em
-  height: 1px
-  width: auto
-  opacity: 0.2
-
-.line-white
-  background-color: white
-
-.line-grey
-  background-color: material-color('grey', '500')
-
-.content
-  margin-top: 3.6em
-  width: 70%
-  float: left
-
-footer
-  float: right
-
-.blog-title
-  margin: 0 0 0 0.3em
-  color: material-color('grey', '700')

@@ -22,49 +22,67 @@
       </ul>
     </nav>
     <div class='content home-content'>
-      <div class='side-block'>
-        <h3 class='blog-title'>Title Of The Document</h3>
-        <div class="line line-grey">
-
+      <div class='block'>
+        <div class='block-info block-grey'>
+        <h3 class='blog-title'>Deployment Instruction</h3>
         </div>
-      </div>
-      <div class='side-block'>
+        <div class='block-content'>
+          <div class='blog-content'>
+
+<h3>New instance in EC2</h3>
+<ul>
+<li>Create a new instance in EC2.
+<ol>
+<li>Open AWS, select EC2 section, press launch instance.</li>
+<li>Select Ubuntu Server</li>
+<li>Choose any cpu you want</li>
+<li>Press next, then press next till <strong>Configure Security Group</strong></li>
+<li>Configure the security like the table<br>
+For HTTP the range should be anywhere<br>
+For SSH the range should be your IP address</li>
+<li>Creat a SSH key or use an exist SSH key. <em>If you create a SSH please download the SSH file usually is xxx.pem</em></li>
+</ol>
+</li>
+</ul>
+          </div>
+        </div>
 
       </div>
-      <div class='side-block'>
+      <div class='block'>
+
+      </div>
+      <div class='block'>
 
       </div>
 
     </div>
     <div class='side-bar'>
-      <div class='side-block block-blue'>
-        <div class='profile-pic'>
-          <img src="pic/profile-pic.jpg"/>
+      <div class='block'>
+        <div class='block-info'>
+          <div class='profile-pic'>
+            <img src="pic/profile-pic.jpg"/>
 
+          </div>
         </div>
 
-        <div class='line line-white'>
-
-        </div>
-        <div class='profile-info'>
-          <p>Name: Xin Li</p>
-          <p>Gender: Male</p>
-        </div>
+        <div class='block-content'>
+          <div class='profile-info'>
+            <p><strong>Name</strong>: Xin Li</p>
+            <p><strong>Gender</strong>: Male</p>
+          </div>
+          </div>
         <div class='profile-list'>
 
         </div>
       </div>
-      <div class='side-block block-green'>
-        <h3 class='intro-header'>Enducation</h3>
-
-        <div class='line line-white'>
-
+      <div class='block'>
+        <div class='block-info block-blue'>
+          <h3 class='intro-header'>Enducation</h3>
         </div>
-        <div class='blog-content'>
+        <div class='block-content'>
+          <div class='profile-info'>
 
-        </div>
-        <div class='profile-info'>
-          <h3 class='intro-header'><strong>Undergrad:</strong></h3>
+          <h3><strong>Undergrad:</strong></h3>
           <p>
             China University of Geosciences(Wuhan)
           </p>
@@ -74,10 +92,9 @@
           <p>
             Information Engineering
           </p>
-          <div class="line line-white">
+          <div class="line line-grey">
 
           </div>
-
           <h3><strong>Grad:</strong></h3>
           <p>
             Northeastern University
@@ -89,13 +106,14 @@
           <p>
             Computer Science
           </p>
-
         </div>
-        <div class='profile-list'>
 
         </div>
       </div>
     </div>
+    <footer>
+      Copy right by Xin Li
+    </footer>
 
 
   </body>
